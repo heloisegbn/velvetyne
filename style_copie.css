@@ -1,0 +1,207 @@
+body {
+    background: rgb(246, 0, 96);
+    background: linear-gradient(90deg, rgba(246, 0, 96, 1) 0%, rgba(251, 177, 232, 1) 100%);
+    overflow-x: hidden;
+}
+
+
+}
+.bandeau-container {
+    background: rgb(246, 0, 96);
+    background: linear-gradient(90deg, rgba(246, 0, 96, 1) 0%, rgba(251, 177, 232, 1) 100%);
+}
+.bandeau {
+    transform: translateX(100vw);
+    animation: bandeau 8s linear infinite;
+}
+@keyframes bandeau {
+    100% {
+        transform: translateX(0vw);
+    }
+}
+.bandeau {
+    font-size: 10vw;
+    color: rgb(5, 5, 5);
+    font-family: "Montchauve";
+}
+@font-face {
+    font-family: "Montchauve";
+    src: url("fonts/Montchauve.otf") format(.otf);
+}
+.bandeau:hover {
+    background-color: rgb(253, 253, 255);
+}
+a {
+    font-size: 10vw;
+    color: rgb(5, 5, 5);
+    font-family: "Ouroboros";
+    position: relative;
+    top: 0%;
+    left: 20%;
+    transform: translateX(-50%);
+    animation: bandeau 8s linear infinite;
+}
+.bandeau-container_2 {
+    background: rgb(246, 0, 96);
+    background: linear-gradient(90deg, rgba(246, 0, 96, 1) 0%, rgba(251, 177, 232, 1) 100%);
+}
+.bandeau_2 {
+    transform: translateX(100vw);
+    animation: bandeau 8s linear infinite;
+}
+@keyframes bandeau_2 {
+    100% {
+        transform: translateX(0vw);
+    }
+}
+.bandeau_2 {
+    font-size: 10vw;
+    color: rgb(5, 5, 5);
+    font-family: "Typefesse";
+    position: relative;
+    bottom: 20%;
+}
+.bandeau_2:hover {
+    background-color: rgb(253, 253, 255);
+}
+
+}
+.bandeau-container_3 {
+    background: rgb(246,
+    0,
+    96);
+    background: linear-gradient(90deg,
+    rgba(246, 0, 96, 1) 0%,
+    rgba(251, 177, 232, 1) 100%);
+}
+.bandeau_3 {
+    transform: translateX(100vw);
+    animation: bandeau 8s linear infinite;
+}
+@keyframes .bandeau_3 {
+    100% {
+        transform: translateX(0vw);
+    }
+}
+.bandeau_3 {
+    font-size: 10vw;
+    color: rgb(5,
+    5,
+    5);
+    font-family:"Mourier";
+    position:relative;
+    bottom: 5%;
+}
+.bandeau_3:hover {
+    background: rgb(246,
+    0,
+    96);
+    background: linear-gradient(90deg,
+    rgba(246, 0, 96, 1) 0%,
+    rgba(251, 177, 232, 1) 100%);
+    color: white;
+}
+@font-face {
+    font-family: "Typefesse";
+    src: url("fonts/Typefesse_Claire-Obscure.woff2") format("woff2"),
+    url("fonts/Typefesse_Claire-Obscure.woff") format("woff");
+}
+@font-face {
+    font-family: "Mourier";
+    src: url("fonts/mourier_regular/Mourier-Regular.woff2") format("woff2"),
+    url("fonts/mourier_regular/Mourier-Regular.woff") format("woff");
+}
+a:hover {
+    color: white;
+}
+@font-face {
+    font-family: "Ouroboros";
+    src: url("fonts/Ouroboros-Regular.woff2") format("woff2"),
+    url("fonts/Ouroboros-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "pilowlava";
+    src: url("fonts/Pilowlava-Regular.woff2") format("woff2"),
+    url("fonts/Pilowlava-Regular.woff") format("woff");
+}
+.bandeau-container_3 {
+    background: rgb(246,
+    0,
+    96);
+    background: linear-gradient(90deg,
+    rgba(246,
+    0,
+    96,
+    1) 0%,
+    rgba(251,
+    177,
+    232,
+    1) 100%);
+}
+.bandeau_4 {
+    transform: translateX(100vw);
+    animation: bandeau 8s linear infinite;
+}
+@keyframes .bandeau_4 {
+    100% {
+        transform: translateX(0vw);
+    }
+}
+.bandeau_4 {
+    font-size: 10vw;
+    color: rgb(5,
+    5,
+    5);
+    font-family:"pilowlava";
+    position: relative;
+    bottom: 5%;
+}
+.bandeau_4:hover {
+    background: rgb(246,
+    0,
+    96);
+    background: linear-gradient(90deg,
+    rgba(246,
+    0,
+    96,
+    1) 0%,
+    rgba(251,
+    177,
+    232,
+    1) 100%);
+    color: white;
+}
+a:hover {
+    color: white;
+}
+.bandeau_5 {
+    transform: translateX(100vw);
+    animation: bandeau 8s linear infinite;
+}
+@keyframes .bandeau_4 {
+    100% {
+        transform: translateX(0vw);
+    }
+}
+.bandeau_5 {
+    font-size: 10vw;
+    color: rgb(5,
+    5,
+    5);
+    font-family:"Victorianna";
+    position: relative;
+    bottom: 5%;
+}
+.bandeau_5:hover {
+    background-color: rgb(253,
+    253,
+    255);
+    color: black;
+}
+a:hover {
+    color: white;
+}
+@font-face {
+    font-family: "Victorianna";
+    src: url("fonts/vtf_victorianna thin.otf") format("opentype");
+}
