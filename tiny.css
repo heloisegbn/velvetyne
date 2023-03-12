@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Source+Serif+Pro:wght@200&display=swap');
+@font-face {
+    font-family: "format";
+    src: url("fonts/format_1452.woff2") format("woff2"), url("fonts/format_1452.woff") format("woff");
+}
+
+body {
+    font-family: "format";
+    font-size: 2vw;
+    overflow-x: hidden;
+    font-weight: bold;
+    background-color: rgb(132, 235, 253);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "tiny";
+    src: url("fonts/tiny5x3-40.woff2") format("woff2"), url("fonts/tiny5x3-40.woff") format("woff");
+}
+
+.fauxtexte2 {
+    font-family: "tiny";
+    font-weight: bold;
+    font-size: 6vw;
+}
+
+.fauxtexte {
+    font-family: "tiny";
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+.Tiny {
+    font-size: 8vw;
+    font-family: "tiny";
+    position: relative;
+    top: 0%;
+    left: 35%;
+    color: rgb(0, 0, 0);
+}
+
+.boxTexte01 {
+    width: calc(55% - 50px);
+    margin-left: 45%;
+    padding: 10px;
+}
+
+.boxPicture01 {
+    position: fixed;
+    width: 45%;
+    height: 100%;
+    top: 0%;
+    overflow-y: scroll;
+    background-color: black;
+}
+
+.boxPicture01 img {
+    width: 100%;
+    margin-top: 10px;
+}

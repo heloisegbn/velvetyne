@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Source+Serif+Pro:wght@200&display=swap');
+@font-face {
+    font-family: "format";
+    src: url("fonts/format_1452.woff2") format("woff2"), url("fonts/format_1452.woff") format("woff");
+}
+
+body {
+    font-family: "format";
+    font-size: 2vw;
+    overflow-x: hidden;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Ouroboros";
+    src: url("fonts/Ouroboros-Regular.woff2") format("woff2"), url("fonts/Ouroboros-Regular.woff") format("woff");
+}
+
+.fauxtexte2 {
+    font-family: "Ouroboros";
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+.fauxtexte {
+    font-family: "Ouroboros";
+    font-weight: bold;
+}
+
+.boxTexte01 {
+    width: calc(60% - 55px);
+    margin-left: 40%;
+    padding: 10px;
+}
+
+.boxPicture01 {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    top: 0%;
+    overflow-y: scroll;
+    background-color: black;
+}
+
+.boxPicture01 img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bandeau-container {
+    background: rgb(255, 255, 255);
+}
+
+.bandeau {
+    transform: translateX(100vw);
+    animation: bandeau 18s linear infinite;
+}
+
+@keyframes bandeau {
+    100% {
+        transform: translateX(0vw);
+    }
+}
+
+.bandeau {
+    font-family: "Ouroboros";
+    font-size: 10vw;
+    color: rgb(0, 0, 0);
+}

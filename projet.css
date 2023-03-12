@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Source+Serif+Pro:wght@200&display=swap');
+@font-face {
+    font-family: "format";
+    src: url("fonts/format_1452.woff2") format("woff2"), url("fonts/format_1452.woff") format("woff");
+}
+
+body {
+    font-family: "format";
+    font-size: 2vw;
+    overflow-x: hidden;
+    font-weight: bold;
+    display: flex;
+    margin: 0;
+    background-color: rgb(158, 209, 158);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "LeMurmure";
+    src: url("fonts/LeMurmure-Regular.woff") format("woff2"), url("fonts/LeMurmure-Regular.woff") format("woff");
+}
+
+html {
+    --largeur: 30%;
+}
+
+.fauxtexte2 {
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+.fauxtexte {
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.body-murmure {
+    font-size: 4vw;
+    font-family: "LeMurmure";
+    --largeur: 40%;
+    --couleur: rgb(76, 138, 79);
+}
+
+.body-murmure p {
+    margin-bottom: 1em;
+}
+
+.texte {
+    width: calc(60% - 55px);
+    flex: 1;
+    padding: 10px;
+    margin-left: var(--largeur);
+}
+
+.images {
+    position: fixed;
+    width: var(--largeur);
+    height: 100%;
+    top: 0%;
+    overflow-y: scroll;
+    background-color: black;
+    z-index: 2;
+}
+
+.images img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bandeau {
+    transform: translateX(0);
+    animation: bandeau 18s linear infinite;
+}
+
+@keyframes bandeau {
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+.bandeau {
+    font-size: 10vw;
+}
+
+.bandeau-container {
+    overflow: hidden;
+    white-space: nowrap
+}

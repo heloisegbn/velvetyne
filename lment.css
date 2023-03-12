@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Source+Serif+Pro:wght@200&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    overflow-x: hidden;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Lment";
+    src: url("fonts/Lment-v02.otf") format("opentype");
+}
+
+.fauxtexte2 {
+    font-family: "Lment";
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+.fauxtexte {
+    font-family: "Lment";
+    font-weight: bold;
+}
+
+.lment {
+    font-size: 8vw;
+    font-family: "Lment";
+    position: relative;
+    top: 0%;
+    left: 30%;
+    color: rgb(0, 0, 0);
+}
+
+.boxTexte01 {
+    width: calc(35% - 60px);
+    margin-left: 35%;
+    padding: 10px;
+}
+
+.boxPicture01 {
+    position: fixed;
+    width: 35%;
+    height: 100%;
+    top: 0%;
+    overflow-y: scroll;
+    background-color: black;
+}
+
+.boxPicture01 img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+a {
+    font-family: "Lment";
+    font-size: 3vw;
+    position: relative;
+    left: 35%;
+    color: black;
+}

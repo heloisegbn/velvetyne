@@ -1,0 +1,90 @@
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Source+Serif+Pro:wght@200&display=swap');
+
+    body{
+font-family: 'Raleway', sans-serif; 
+font-size: 2vw;
+overflow-x: hidden;
+        font-weight: bold;
+       background-color: pink;
+
+    }
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+    
+
+   .fauxtexte2{
+       font-family: "Bluu";
+       font-weight: bold;
+       font-size: 5vw;
+   }
+
+   .fauxtexte{
+       font-family: "Bluu";
+       font-weight: bold;
+   }
+   
+
+
+    .boxTexte01{
+        width:calc(80% - 20px);
+        margin-left: 20%;
+        padding:10px;
+    }
+
+    .boxPicture01{
+        position: fixed;
+        width: 20%;
+        height: 100%;
+        top:0%;
+        overflow-y: scroll;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .boxPicture01 img{
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    
+    
+    .bandeau-container {
+        background: rgb(255, 94, 148);
+    }
+    .bandeau{
+        transform: translateX(100vw);
+    
+        animation: bandeau 18s linear  infinite;
+    
+    }
+    
+    @keyframes bandeau{
+        100%{
+            transform: translateX(0vw);
+        }
+        
+    }
+    
+
+    @font-face {
+        font-family: "Bluu";
+        src: url("fonts/bluunext-bold-webfont.woff2") format("woff2"),
+             url("fonts/bluunext-bold-webfont.woff") format("woff");
+       }
+    
+    .bandeau{
+        font-family: "Bluu";
+     font-size: 10vw;
+     color: rgb(5, 5, 5);
+    
+    }
+       
+    
+    

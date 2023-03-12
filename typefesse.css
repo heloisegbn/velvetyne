@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Source+Serif+Pro:wght@200&display=swap');
+@font-face {
+    font-family: "format";
+    src: url("fonts/format_1452.woff2") format("woff2"), url("fonts/format_1452.woff") format("woff");
+}
+
+body {
+    font-family: "format";
+    font-size: 2vw;
+    overflow-x: hidden;
+    font-weight: bold;
+    background-color: rgb(252, 216, 182);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Typefesse";
+    src: url("fonts/Typefesse_Claire-Obscure.woff2") format("woff2"), url("fonts/Typefesse_Claire-Obscure.woff") format("woff");
+}
+
+.fauxtexte2 {
+    font-family: "Typefesse";
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+.fauxtexte {
+    font-family: "Typefesse";
+    font-weight: bold;
+}
+
+.typefesse {
+    font-size: 7vw;
+    font-family: "Typefesse";
+    position: relative;
+    top: 0%;
+    left: 10%;
+    color: rgb(0, 0, 0);
+}
+
+.boxTexte01 {
+    width: calc(55% - 50px);
+    margin-left: 45%;
+    padding: 10px;
+}
+
+.boxPicture01 {
+    position: fixed;
+    width: 45%;
+    height: 100%;
+    top: 0%;
+    overflow-y: scroll;
+    background-color: black;
+}
+
+.boxPicture01 img {
+    width: 100%;
+    margin-top: 10px;
+}

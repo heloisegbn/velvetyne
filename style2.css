@@ -1,0 +1,223 @@
+body {
+    background: rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+.bandeau-container {
+    background: rgb(255, 255, 255);
+}
+
+.bandeau {
+    transform: translateX(100vw);
+    animation: bandeau 18s linear infinite;
+}
+
+@keyframes bandeau {
+    100% {
+        transform: translateX(0vw);
+    }
+}
+
+.bandeau {
+    font-family: "Ouroboros";
+    font-size: 2vw;
+    color: rgb(5, 5, 5);
+}
+
+@font-face {
+    font-family: "Ouroboros";
+    src: url("fonts/Ouroboros-Regular.woff2") format("woff2"), url("fonts/Ouroboros-Regular.woff") format("woff");
+}
+
+.bandeau:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.grille {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 480px;
+}
+
+.image_1 {
+    width: 500px;
+}
+
+@font-face {
+    font-family: "LeMurmure";
+    src: url("fonts/LeMurmure-Regular.woff") format("woff2"), url("fonts/LeMurmure-Regular.woff") format("woff");
+}
+
+.murmure {
+    font-family: "LeMurmure";
+    font-size: 4vw;
+}
+
+.item.mourier p {
+    background: linear-gradient( rgba(0, 0, 0, .75), rgb(81, 194, 118));
+}
+
+.item {
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.item p {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, .75), rgb(81, 194, 118));
+    color: white;
+    padding: 1em;
+    opacity: .5;
+    transition: all 250ms;
+    margin: 0;
+}
+
+.item:hover p {
+    top: 0;
+    opacity: 1;
+}
+
+.item.mourier p {
+    background: linear-gradient( rgba(88, 159, 206, 0.75), rgb(0, 0, 0));
+}
+
+@font-face {
+    font-family: "Mourier";
+    src: url("fonts/mourier_regular/Mourier-Regular.woff2") format("woff2"), url("fonts/mourier_regular/Mourier-Regular.woff") format("woff");
+}
+
+.mourier {
+    font-family: "Mourier";
+    font-size: 4vw;
+}
+
+.item.victorianna p {
+    background: linear-gradient( rgba(233, 178, 199, 0.75), rgb(247, 132, 132));
+}
+
+.victorianna {
+    font-family: "Victorianna";
+    font-size: 4vw;
+}
+
+@font-face {
+    font-family: "Victorianna";
+    src: url("fonts/vtf_victorianna thin.otf") format("opentype");
+}
+
+.item.grotesque p {
+    background: linear-gradient( rgb(243, 232, 135), rgb(255, 222, 73));
+}
+
+.grotesque {
+    font-family: "grotesque";
+    font-size: 4vw;
+}
+
+@font-face {
+    font-family: "grotesque";
+    src: url("fonts/sportinggrotesque-regular.otf") format("opentype");
+}
+
+.item.bluu p {
+    background: linear-gradient( rgb(219, 100, 156), rgb(241, 166, 210));
+    color: black;
+}
+
+.bluu {
+    font-family: "bluu";
+    font-size: 5vw;
+}
+
+@font-face {
+    font-family: "bluu";
+    src: url("fonts/bluunext-bold-webfont.woff2") format("woff2"), url("fonts/bluunext-bold-webfont.woff") format("woff");
+}
+
+.item.pilowlava p {
+    background: linear-gradient( rgba(124, 97, 143, 0.75), rgb(0, 0, 0));
+}
+
+@font-face {
+    font-family: "pilowlava";
+    src: url("fonts/Pilowlava-Regular.woff2") format("woff2"), url("fonts/Pilowlava-Regular.woff") format("woff");
+    color: black;
+}
+
+.pilowlava {
+    font-family: "pilowlava";
+    font-size: 4vw;
+}
+
+.item.typefesse p {
+    background: linear-gradient( rgb(243, 232, 135), rgb(243, 118, 118));
+    color: black;
+}
+
+@font-face {
+    font-family: "typefesse";
+    src: url("fonts/Typefesse_Claire-Obscure.woff2") format("woff2"), url("fonts/Typefesse_Claire-Obscure.woff") format("woff");
+}
+
+.typefesse {
+    font-family: "typefesse";
+    font-size: 4vw;
+}
+
+.item.lment p {
+    background: linear-gradient( rgb(25, 0, 255), rgb(193, 192, 245));
+    color: rgba(226, 75, 146, 0.918);
+}
+
+@font-face {
+    font-family: "lment";
+    src: url("fonts/Lment-v02.otf") format("opentype");
+}
+
+.lment {
+    font-family: "lment";
+    font-size: 4vw;
+}
+
+.item.ouroboros p {
+    background: linear-gradient( rgba(235, 46, 71, 0.75), rgb(241, 148, 226));
+}
+
+@font-face {
+    font-family: "ouroboros";
+    src: url("fonts/Ouroboros-Regular.woff2") format("woff2"), url("fonts/Ouroboros-Regular.woff") format("woff");
+}
+
+.ouroboros {
+    font-family: "ouroboros";
+    font-size: 4vw;
+}
+
+.item.tiny p {
+    background: linear-gradient( rgba(255, 255, 255, 0.75), rgb(0, 0, 0));
+    color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: "tiny";
+    src: url("fonts/tiny5x3-40.woff2") format("woff2"), url("fonts/tiny5x3-40.woff") format("woff");
+}
+
+.tiny {
+    font-family: "tiny";
+    font-size: 5vw;
+}
